@@ -1,0 +1,22 @@
+(RegularGrammar
+ name
+ nil
+ ((s1 -> "_p.name_is_k_" s2)
+  (s1 -> "_not_p.name_is_k_" s3)
+  (s2 -> epsilon)
+  (s3 -> "_p.name_is_g_" s4)
+  (s3 -> "_not_p.name_is_g_" s5)
+  (s4 -> "_p.p.name_is_æ_" s6)
+  (s4 -> "_not_p.p.name_is_æ_" s7)
+  (s6 -> j)
+  (s7 -> "_p.p.name_is_e_" s8)
+  (s7 -> "_not_p.p.name_is_e_" s9)
+  (s8 -> j)
+  (s9 -> "_p.p.name_is_y_" s10)
+  (s9 -> "_not_p.p.name_is_y_" s11)
+  (s10 -> j)
+  (s11 -> epsilon)
+  (s5 -> "_p.name_is_h_" s12)
+  (s5 -> "_not_p.name_is_h_" s13)
+  (s12 -> epsilon)
+  (s13 -> j)))

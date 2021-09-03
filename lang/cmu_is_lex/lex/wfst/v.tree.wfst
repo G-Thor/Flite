@@ -1,0 +1,27 @@
+EST_File fst
+DataType ascii
+in "(__epsilon__ = epsilon \"_not_n.name_is_e_\" \"_n.name_is_e_\" v \"_not_p.p.p.name_is_0_\" \"_p.p.p.name_is_0_\" \"_not_p.name_is_þ_\" \"_p.name_is_þ_\")"
+out "(__epsilon__ = epsilon \"_not_n.name_is_e_\" \"_n.name_is_e_\" v \"_not_p.p.p.name_is_0_\" \"_p.p.p.name_is_0_\" \"_not_p.name_is_þ_\" \"_p.name_is_þ_\")"
+NumStates 6
+ByteOrder 01
+EST_Header_End
+((0 nonfinal 2)
+  ("_not_p.name_is_þ_"  "_not_p.name_is_þ_" 1 0)
+  ("_p.name_is_þ_"  "_p.name_is_þ_" 2 0)
+)
+((1 nonfinal 1)
+  (v  v 3 0)
+)
+((2 nonfinal 2)
+  ("_not_p.p.p.name_is_0_"  "_not_p.p.p.name_is_0_" 4 0)
+  ("_p.p.p.name_is_0_"  "_p.p.p.name_is_0_" 1 0)
+)
+((3 final 0)
+)
+((4 nonfinal 2)
+  ("_not_n.name_is_e_"  "_not_n.name_is_e_" 5 0)
+  ("_n.name_is_e_"  "_n.name_is_e_" 1 0)
+)
+((5 nonfinal 1)
+  (epsilon  epsilon 3 0)
+)

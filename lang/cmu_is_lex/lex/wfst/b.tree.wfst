@@ -1,0 +1,39 @@
+EST_File fst
+DataType ascii
+in "(__epsilon__ = \"_not_n.n.n.name_is_a_\" \"_n.n.n.name_is_a_\" \"_not_p.name_is_f_\" \"_p.name_is_f_\" \"_not_p.p.p.name_is_r_\" \"_p.p.p.name_is_r_\" \"_not_p.p.p.name_is_0_\" \"_p.p.p.name_is_0_\" p \"_not_p.name_is_p_\" \"_p.name_is_p_\" epsilon \"_not_n.name_is_b_\" \"_n.name_is_b_\")"
+out "(__epsilon__ = \"_not_n.n.n.name_is_a_\" \"_n.n.n.name_is_a_\" \"_not_p.name_is_f_\" \"_p.name_is_f_\" \"_not_p.p.p.name_is_r_\" \"_p.p.p.name_is_r_\" \"_not_p.p.p.name_is_0_\" \"_p.p.p.name_is_0_\" p \"_not_p.name_is_p_\" \"_p.name_is_p_\" epsilon \"_not_n.name_is_b_\" \"_n.name_is_b_\")"
+NumStates 9
+ByteOrder 01
+EST_Header_End
+((0 nonfinal 2)
+  ("_not_n.name_is_b_"  "_not_n.name_is_b_" 1 0)
+  ("_n.name_is_b_"  "_n.name_is_b_" 2 0)
+)
+((1 nonfinal 2)
+  ("_not_p.name_is_p_"  "_not_p.name_is_p_" 3 0)
+  ("_p.name_is_p_"  "_p.name_is_p_" 4 0)
+)
+((2 nonfinal 1)
+  (epsilon  epsilon 5 0)
+)
+((3 nonfinal 2)
+  ("_not_p.p.p.name_is_0_"  "_not_p.p.p.name_is_0_" 6 0)
+  ("_p.p.p.name_is_0_"  "_p.p.p.name_is_0_" 4 0)
+)
+((4 nonfinal 1)
+  (p  p 5 0)
+)
+((5 final 0)
+)
+((6 nonfinal 2)
+  ("_not_p.p.p.name_is_r_"  "_not_p.p.p.name_is_r_" 4 0)
+  ("_p.p.p.name_is_r_"  "_p.p.p.name_is_r_" 7 0)
+)
+((7 nonfinal 2)
+  ("_not_p.name_is_f_"  "_not_p.name_is_f_" 4 0)
+  ("_p.name_is_f_"  "_p.name_is_f_" 8 0)
+)
+((8 nonfinal 2)
+  ("_not_n.n.n.name_is_a_"  "_not_n.n.n.name_is_a_" 2 0)
+  ("_n.n.n.name_is_a_"  "_n.n.n.name_is_a_" 4 0)
+)

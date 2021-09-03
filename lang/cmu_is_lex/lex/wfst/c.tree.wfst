@@ -1,0 +1,12 @@
+EST_File fst
+DataType ascii
+in "(__epsilon__ = epsilon)"
+out "(__epsilon__ = epsilon)"
+NumStates 2
+ByteOrder 01
+EST_Header_End
+((0 nonfinal 1)
+  (epsilon  epsilon 1 0)
+)
+((1 final 0)
+)

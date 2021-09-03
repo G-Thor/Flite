@@ -1,0 +1,19 @@
+EST_File fst
+DataType ascii
+in "(__epsilon__ = k-s s \"_not_p.p.name_is_í_\" \"_p.p.name_is_í_\")"
+out "(__epsilon__ = k-s s \"_not_p.p.name_is_í_\" \"_p.p.name_is_í_\")"
+NumStates 4
+ByteOrder 01
+EST_Header_End
+((0 nonfinal 2)
+  ("_not_p.p.name_is_í_"  "_not_p.p.name_is_í_" 1 0)
+  ("_p.p.name_is_í_"  "_p.p.name_is_í_" 2 0)
+)
+((1 nonfinal 1)
+  (k-s  k-s 3 0)
+)
+((2 nonfinal 1)
+  (s  s 3 0)
+)
+((3 final 0)
+)
