@@ -54,7 +54,7 @@
 /* #define CLUNITS_DEBUG 1 */
 
 #ifndef CLUNITS_DEBUG
-#define CLUNITS_DEBUG 0
+#define CLUNITS_DEBUG 2
 #endif
 
 #if CLUNITS_DEBUG > 0
@@ -317,7 +317,7 @@ static cst_vit_path *cl_path(cst_vit_path *p,
 	    cost = 0;
     }
 
-    cost *= 1; /* magic number ("continuity weight") */
+    cost *= 5; /* magic number ("continuity weight") */
     np->state = c->pos;
     if (p==0)
 	np->score = cost + c->score;

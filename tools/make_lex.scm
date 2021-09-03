@@ -309,7 +309,7 @@ are predicable and not homographs."
     ;; Use a new lexicon and not get confused with any installed ont
     (lex.create "g0006")
     (lex.set.compile.file infile)
-    (lex.set.phoneset "radio")
+    (lex.set.phoneset 'lvl_is_phoneset)
     (lex.set.lts.method 'cmu_lts_function)
     (lex.select "g0006")
     (load ltsfile)

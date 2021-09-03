@@ -167,7 +167,7 @@ Feature and value are single bytes, which addrs are double bytes."
        ((string-equal "final" (car (cdr (car state))))
 	(set! lts_pos (- lts_pos 1))
 	t) ;; do nothing
-       ((string-matches (car (car (cdr state))) ".*_.*")
+       ((and (string-matches (car (car (cdr state))) ".*_.*") (not (string-matches (car (car (cdr state))) "\\(.-\\)?._.")))
 	(format ofde "   %s, %d, %s , %s , \n"
 		(lts_feat (car (car (cdr state))))
 ;		(lts_val (car (car (cdr state))))

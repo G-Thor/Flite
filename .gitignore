@@ -11,3 +11,7 @@ tools/*.o
 
 config.log
 config.status
+lang/*/lex
+lang/*backup
+lang/*copy
+lang/*/festival
